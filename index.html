@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Password Strength Checker & Generator</h1>
+
+    <input id="name" placeholder="Full Name">
+    <input id="email" placeholder="Email">
+    <input id="dob" placeholder="Date of Birth">
+    <input id="spouse" placeholder="Spouse Name (optional)">
+    <input id="child" placeholder="Child Name (optional)">
+
+    <input id="password" placeholder="Enter Password" type="password">
+
+    <button onclick="checkPassword()">Check Password</button>
+    <button onclick="generate()">Generate Strong Password</button>
+
+    <pre id="result"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
